@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="9" failed="3" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T13:00:16 IST" name="Suite" finished-at="2023-05-12T13:02:37 IST" duration-ms="140603">
+    <groups>
+    </groups>
+    <test started-at="2023-05-12T13:00:16 IST" name="Test" finished-at="2023-05-12T13:02:37 IST" duration-ms="140603">
+      <class name="tests.Login_Page_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Login_Page_Test@53045c6c]" started-at="2023-05-12T13:00:16 IST" name="setup" finished-at="2023-05-12T13:00:59 IST" duration-ms="42584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="valid_login()[pri:1, instance:tests.Login_Page_Test@53045c6c]" started-at="2023-05-12T13:00:59 IST" name="valid_login" finished-at="2023-05-12T13:01:07 IST" duration-ms="7558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+      </class> <!-- tests.Login_Page_Test -->
+      <class name="tests.Orders_Page_Test">
+        <test-method is-config="true" signature="report_path()[pri:0, instance:tests.Orders_Page_Test@742ff096]" started-at="2023-05-12T13:00:16 IST" name="report_path" finished-at="2023-05-12T13:00:16 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report_path -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.Orders_Page_Test@742ff096]" started-at="2023-05-12T13:02:14 IST" name="setup1" finished-at="2023-05-12T13:02:32 IST" duration-ms="17387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="Login()[pri:1, instance:tests.Orders_Page_Test@742ff096]" started-at="2023-05-12T13:02:32 IST" name="Login" finished-at="2023-05-12T13:02:32 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Dashboard_Heading()[pri:2, instance:tests.Orders_Page_Test@742ff096]" started-at="2023-05-12T13:02:32 IST" name="Dashboard_Heading" finished-at="2023-05-12T13:02:32 IST" depends-on-methods="tests.Orders_Page_Test.Login" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard_Heading -->
+        <test-method signature="Sales_Icon_Click_and_Order_Page()[pri:3, instance:tests.Orders_Page_Test@742ff096]" started-at="2023-05-12T13:02:32 IST" name="Sales_Icon_Click_and_Order_Page" finished-at="2023-05-12T13:02:36 IST" depends-on-methods="tests.Orders_Page_Test.Login" duration-ms="4313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sales_Icon_Click_and_Order_Page -->
+        <test-method signature="Verifying_Product_Count()[pri:4, instance:tests.Orders_Page_Test@742ff096]" started-at="2023-05-12T13:02:36 IST" name="Verifying_Product_Count" finished-at="2023-05-12T13:02:36 IST" depends-on-methods="tests.Orders_Page_Test.Sales_Icon_Click_and_Order_Page" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifying_Product_Count -->
+        <test-method is-config="true" signature="reportend()[pri:0, instance:tests.Orders_Page_Test@742ff096]" started-at="2023-05-12T13:02:36 IST" name="reportend" finished-at="2023-05-12T13:02:37 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportend -->
+      </class> <!-- tests.Orders_Page_Test -->
+      <class name="tests.Product_Drop_Down_List_Test">
+        <test-method is-config="true" signature="report_path()[pri:0, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:00:16 IST" name="report_path" finished-at="2023-05-12T13:00:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report_path -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:07 IST" name="setup1" finished-at="2023-05-12T13:01:18 IST" duration-ms="11733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="Login()[pri:1, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:18 IST" name="Login" finished-at="2023-05-12T13:01:18 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Dashboard_Heading()[pri:2, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:18 IST" name="Dashboard_Heading" finished-at="2023-05-12T13:01:18 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Login" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard_Heading -->
+        <test-method signature="Catalog_Icon_Click_and_Product_Page()[pri:3, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:18 IST" name="Catalog_Icon_Click_and_Product_Page" finished-at="2023-05-12T13:01:22 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Login" duration-ms="3549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Catalog_Icon_Click_and_Product_Page -->
+        <test-method signature="Add_New_Product_Button()[pri:4, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:22 IST" name="Add_New_Product_Button" finished-at="2023-05-12T13:01:32 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Catalog_Icon_Click_and_Product_Page" duration-ms="9928" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="0">...</li> is not clickable at point (1027, 570). Other element would receive the click: <li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="3">...</li>
+  (Session info: chrome=113.0.5672.93)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9d9b4a245bf1f5f11b7ad9916b4e6e, clickElement {id=B9246FF5C2ADA1C51FC6C1C9C2658D16_element_266}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\nnawaz\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64868/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6f9d9b4a245bf1f5f11b7ad9916b4e6e)] -> xpath: //ul[@id='SelectedCategoryIds_listbox']/li[1]]
+Session ID: 6f9d9b4a245bf1f5f11b7ad9916b4e6e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="0">...</li> is not clickable at point (1027, 570). Other element would receive the click: <li tabindex="-1" role="option" unselectable="on" class="k-item" aria-selected="false" data-offset-index="3">...</li>
+  (Session info: chrome=113.0.5672.93)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9d9b4a245bf1f5f11b7ad9916b4e6e, clickElement {id=B9246FF5C2ADA1C51FC6C1C9C2658D16_element_266}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\nnawaz\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64868/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6f9d9b4a245bf1f5f11b7ad9916b4e6e)] -> xpath: //ul[@id='SelectedCategoryIds_listbox']/li[1]]
+Session ID: 6f9d9b4a245bf1f5f11b7ad9916b4e6e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at actions.Product_Page_Actions.product_info(Product_Page_Actions.java:67)
+at tests.Product_Drop_Down_List_Test.Add_New_Product_Button(Product_Drop_Down_List_Test.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_New_Product_Button -->
+        <test-method signature="Product_Search_and_Select_Checkbox()[pri:5, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:32 IST" name="Product_Search_and_Select_Checkbox" finished-at="2023-05-12T13:01:32 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Add_New_Product_Button" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.Product_Drop_Down_List_Test.Product_Search_and_Select_Checkbox() on instance tests.Product_Drop_Down_List_Test@7bba5817 depends on not successfully finished methods 
+[tests.Product_Drop_Down_List_Test.Add_New_Product_Button() on instance tests.Product_Drop_Down_List_Test@7bba5817]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.Product_Drop_Down_List_Test.Product_Search_and_Select_Checkbox() on instance tests.Product_Drop_Down_List_Test@7bba5817 depends on not successfully finished methods 
+[tests.Product_Drop_Down_List_Test.Add_New_Product_Button() on instance tests.Product_Drop_Down_List_Test@7bba5817]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_Search_and_Select_Checkbox -->
+        <test-method signature="Product_image_upload()[pri:6, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:32 IST" name="Product_image_upload" finished-at="2023-05-12T13:01:32 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Product_Search_and_Select_Checkbox" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.Product_Drop_Down_List_Test.Product_image_upload() on instance tests.Product_Drop_Down_List_Test@7bba5817 depends on not successfully finished methods 
+[tests.Product_Drop_Down_List_Test.Product_Search_and_Select_Checkbox() on instance tests.Product_Drop_Down_List_Test@7bba5817]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.Product_Drop_Down_List_Test.Product_image_upload() on instance tests.Product_Drop_Down_List_Test@7bba5817 depends on not successfully finished methods 
+[tests.Product_Drop_Down_List_Test.Product_Search_and_Select_Checkbox() on instance tests.Product_Drop_Down_List_Test@7bba5817]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_image_upload -->
+        <test-method signature="Product_updated_successfully()[pri:7, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:32 IST" name="Product_updated_successfully" finished-at="2023-05-12T13:01:32 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Product_image_upload" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.Product_Drop_Down_List_Test.Product_updated_successfully() on instance tests.Product_Drop_Down_List_Test@7bba5817 depends on not successfully finished methods 
+[tests.Product_Drop_Down_List_Test.Product_image_upload() on instance tests.Product_Drop_Down_List_Test@7bba5817]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.Product_Drop_Down_List_Test.Product_updated_successfully() on instance tests.Product_Drop_Down_List_Test@7bba5817 depends on not successfully finished methods 
+[tests.Product_Drop_Down_List_Test.Product_image_upload() on instance tests.Product_Drop_Down_List_Test@7bba5817]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_updated_successfully -->
+        <test-method signature="Catalog_PDF_Download()[pri:8, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:32 IST" name="Catalog_PDF_Download" finished-at="2023-05-12T13:01:52 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Catalog_Icon_Click_and_Product_Page" duration-ms="20090" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn bg-purple']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9d9b4a245bf1f5f11b7ad9916b4e6e, findElement {using=xpath, value=//button[@class='btn bg-purple']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\nnawaz\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64868/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f9d9b4a245bf1f5f11b7ad9916b4e6e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn bg-purple']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9d9b4a245bf1f5f11b7ad9916b4e6e, findElement {using=xpath, value=//button[@class='btn bg-purple']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\nnawaz\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64868/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f9d9b4a245bf1f5f11b7ad9916b4e6e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at actions.Product_Page_Actions.download_catalog_as_pdf(Product_Page_Actions.java:166)
+at tests.Product_Drop_Down_List_Test.Catalog_PDF_Download(Product_Drop_Down_List_Test.java:170)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Catalog_PDF_Download -->
+        <test-method signature="Export_button()[pri:9, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:01:52 IST" name="Export_button" finished-at="2023-05-12T13:02:12 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Catalog_Icon_Click_and_Product_Page" duration-ms="20019" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-success dropdown-toggle']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9d9b4a245bf1f5f11b7ad9916b4e6e, findElement {using=xpath, value=//button[@class='btn btn-success dropdown-toggle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\nnawaz\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64868/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f9d9b4a245bf1f5f11b7ad9916b4e6e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='btn btn-success dropdown-toggle']"}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f9d9b4a245bf1f5f11b7ad9916b4e6e, findElement {using=xpath, value=//button[@class='btn btn-success dropdown-toggle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\nnawaz\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64868/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f9d9b4a245bf1f5f11b7ad9916b4e6e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at actions.Product_Page_Actions.export_button(Product_Page_Actions.java:182)
+at tests.Product_Drop_Down_List_Test.Export_button(Product_Drop_Down_List_Test.java:184)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Export_button -->
+        <test-method signature="Delete_Button()[pri:10, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:02:12 IST" name="Delete_Button" finished-at="2023-05-12T13:02:12 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Add_New_Product_Button" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method tests.Product_Drop_Down_List_Test.Delete_Button() on instance tests.Product_Drop_Down_List_Test@7bba5817 depends on not successfully finished methods 
+[tests.Product_Drop_Down_List_Test.Add_New_Product_Button() on instance tests.Product_Drop_Down_List_Test@7bba5817]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method tests.Product_Drop_Down_List_Test.Delete_Button() on instance tests.Product_Drop_Down_List_Test@7bba5817 depends on not successfully finished methods 
+[tests.Product_Drop_Down_List_Test.Add_New_Product_Button() on instance tests.Product_Drop_Down_List_Test@7bba5817]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Button -->
+        <test-method signature="Log_Out()[pri:11, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:02:12 IST" name="Log_Out" finished-at="2023-05-12T13:02:14 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Catalog_Icon_Click_and_Product_Page" duration-ms="2179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_Out -->
+        <test-method is-config="true" signature="reportend()[pri:0, instance:tests.Product_Drop_Down_List_Test@7bba5817]" started-at="2023-05-12T13:02:37 IST" name="reportend" finished-at="2023-05-12T13:02:37 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportend -->
+      </class> <!-- tests.Product_Drop_Down_List_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

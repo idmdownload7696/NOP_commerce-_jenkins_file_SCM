@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.Product_Drop_Down_List_Test">
+        <methods>
+          <include name="Add_New_Product_Button"/>
+          <include name="Delete_Button"/>
+          <include name="Product_updated_successfully"/>
+          <include name="report_path"/>
+          <include name="Catalog_Icon_Click_and_Product_Page"/>
+          <include name="Export_button"/>
+          <include name="Product_Search_and_Select_Checkbox"/>
+          <include name="Catalog_PDF_Download"/>
+          <include name="Login"/>
+          <include name="reportend"/>
+          <include name="Product_image_upload"/>
+          <include name="setup1"/>
+        </methods>
+      </class> <!-- tests.Product_Drop_Down_List_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

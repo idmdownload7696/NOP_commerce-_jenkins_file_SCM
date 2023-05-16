@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-10T19:12:33 IST" name="Surefire suite" finished-at="2023-05-10T19:13:01 IST" duration-ms="28325">
+    <groups>
+    </groups>
+    <test started-at="2023-05-10T19:12:33 IST" name="Surefire test" finished-at="2023-05-10T19:13:01 IST" duration-ms="28325">
+      <class name="tests.Product_Drop_Down_List_Test">
+        <test-method is-config="true" signature="report_path()[pri:0, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:33 IST" name="report_path" finished-at="2023-05-10T19:12:33 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report_path -->
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:33 IST" name="setup1" finished-at="2023-05-10T19:12:41 IST" duration-ms="8215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="Login()[pri:1, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:41 IST" name="Login" finished-at="2023-05-10T19:12:41 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Dashboard_Heading()[pri:2, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:41 IST" name="Dashboard_Heading" finished-at="2023-05-10T19:12:41 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Login" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard_Heading -->
+        <test-method signature="Catalog_Icon_Click_and_Product_Page()[pri:3, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:41 IST" name="Catalog_Icon_Click_and_Product_Page" finished-at="2023-05-10T19:12:42 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Login" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Catalog_Icon_Click_and_Product_Page -->
+        <test-method signature="Add_New_Product_Button()[pri:4, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:42 IST" name="Add_New_Product_Button" finished-at="2023-05-10T19:12:49 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Catalog_Icon_Click_and_Product_Page" duration-ms="6279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_New_Product_Button -->
+        <test-method signature="Product_Search_and_Select_Checkbox()[pri:5, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:49 IST" name="Product_Search_and_Select_Checkbox" finished-at="2023-05-10T19:12:52 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Add_New_Product_Button" duration-ms="3470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_Search_and_Select_Checkbox -->
+        <test-method signature="Product_image_upload()[pri:6, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:52 IST" name="Product_image_upload" finished-at="2023-05-10T19:12:53 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Product_Search_and_Select_Checkbox" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_image_upload -->
+        <test-method signature="Product_updated_successfully()[pri:7, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:53 IST" name="Product_updated_successfully" finished-at="2023-05-10T19:12:55 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Product_image_upload" duration-ms="1468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Product_updated_successfully -->
+        <test-method signature="Catalog_PDF_Download()[pri:8, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:55 IST" name="Catalog_PDF_Download" finished-at="2023-05-10T19:12:56 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Catalog_Icon_Click_and_Product_Page" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Catalog_PDF_Download -->
+        <test-method signature="Export_button()[pri:9, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:56 IST" name="Export_button" finished-at="2023-05-10T19:12:56 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Catalog_Icon_Click_and_Product_Page" duration-ms="794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Export_button -->
+        <test-method signature="Delete_Button()[pri:10, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:56 IST" name="Delete_Button" finished-at="2023-05-10T19:12:59 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Add_New_Product_Button" duration-ms="2390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Button -->
+        <test-method signature="Log_Out()[pri:11, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:12:59 IST" name="Log_Out" finished-at="2023-05-10T19:13:01 IST" depends-on-methods="tests.Product_Drop_Down_List_Test.Catalog_Icon_Click_and_Product_Page" duration-ms="1887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_Out -->
+        <test-method is-config="true" signature="reportend()[pri:0, instance:tests.Product_Drop_Down_List_Test@7c0c77c7]" started-at="2023-05-10T19:13:01 IST" name="reportend" finished-at="2023-05-10T19:13:01 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportend -->
+      </class> <!-- tests.Product_Drop_Down_List_Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

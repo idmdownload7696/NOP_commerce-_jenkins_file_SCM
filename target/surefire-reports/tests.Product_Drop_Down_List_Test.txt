@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tests.Product_Drop_Down_List_Test
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.691 s - in tests.Product_Drop_Down_List_Test
